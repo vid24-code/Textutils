@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>template is working
+
+    <titl></title>
+</head>
+<body>
+<h1>Welcome to the text analyzer. Enter your text below</h1>
+<form action='/analyze' method='get'>
+    <textarea name='text' style='margin: 0px; width: 694px; height: 92px;'></textarea>
+    <br>
+    <input type="checkbox" name="removepunc">remove punctuation<br>
+    <input type="checkbox" name="fullcaps">UPPERCASE<br>
+    <input type="checkbox" name="newlineremover">New Line Remover<br>
+    <input type="checkbox" name="extraspaceremover">Extra Space Remover<br>
+    <input type="checkbox" name="countcharater">Count of Characters<br>
+
+    <button type = 'submit'>Analyze Text</button>
+</form>
+</body>
+</html>
